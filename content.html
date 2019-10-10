@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Taskforce - Content</title>
+
+	<!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Taskforce NITK">
+    <meta name="keywords" content="Taksforce,NITK,Modules">
+    <meta name="author" content="Taskforce NITK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS Files -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="header" class="navbar-fixed"></div>
+    <div class="center-align">
+        <h1><span class="myellow">Content</span></h1>
+    </div>
+    <div class="container col center">
+        <img src="images/content-main.jpg" class=" landing-image responsive-img center" ><br>
+    </div>
+    <div class="container content">
+        TaskForce Content team helps the Students’ Council and Hostel Council in creating content for different ventures and also in releasing monthly progress reports.<br><br>
+        <span class="bolden">Future Plans:</span>&nbsp;To bring out a bimonthly newsletter called <span class="bolden">'TIDES'</span>, which will serve as a news feed for the students, faculty, administration and alumni. It will feature the past and upcoming events (council, fests, club, sports) and also outstanding achievements.<br><br>
+        <div class="center-align"><a href="report.pdf" target="_blank">Taskforce Report for 2018-2019</a></div>
+    </div>
+    <footer class="page-footer grey lighten-2 black-text">
+    </footer>
+    <script type="text/javascript">
+        $('#header').load('header.html', function() {
+            $('.header-list').prepend('<li><a href="/">HOME</a></li>');
+        });
+        $('footer').load('footer.html');
+    </script>
+</body>

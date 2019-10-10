@@ -1,0 +1,2 @@
+# TaskForce
+TaskForce is a platform for students who are interested in administration but could not be a part of Student Council through Elections. TaskForce is not an alternate body to Students’ Council but a supportive body helping them with new initiatives and additional support in solving student issues. It is a student initiative with the aim to aid and support the NITK Students’ Council in solving student issues. It is a body which aims to bridge the gap between the administration and the students. 

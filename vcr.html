@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Taskforce - VCR</title>
+
+	<!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Taskforce NITK">
+    <meta name="keywords" content="Taksforce,NITK,Modules">
+    <meta name="author" content="Taskforce NITK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS Files -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="header" class="navbar-fixed"></div>
+    <div class="center-align">
+        <h1><span class="myellow">VCR</span></h1>
+    </div>
+    <div class="container content">
+        Virtual ClassRoom is a project to aid the students of the first year in their academics. It seeks to promote learning through an interactive audio-visual medium and help students have a better understanding of concepts and theories. The following are the undertakings by VCR:
+        <ul>
+            <li>Providing videos of lectures taken up by the seniors on various topics in their curriculum.</li>
+            <li>Videos introducing the freshmen to all the courses which will include -
+                <ul class="square-ul">
+                    <li>A brief understanding of all the topics that will be covered in the course throughout the semester.</li>
+                    <li>Mandatory and preferable textbooks and other reference materials.</li>
+                </ul>
+            </li>
+            <li>Conducting Knowledge Exchange Programmes [KEP sessions] by the technical clubs in college.</li>
+        </ul>
+    </div>
+    <div class="center-align">
+        <iframe class="tskf-video" src="https://www.youtube.com/embed/Kha7rTW7o7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="tskf-video" src="https://www.youtube.com/embed/uSYJvLZrnKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="tskf-video" src="https://www.youtube.com/embed/rFPVFJKNqMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="tskf-video" src="https://www.youtube.com/embed/yBXm-YTdiAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="tskf-video" src="https://www.youtube.com/embed/VcLMd6VtXFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <footer class="page-footer grey lighten-2 black-text">
+    </footer>
+    <script type="text/javascript">
+        $('#header').load('header.html', function() {
+            $('.header-list').prepend('<li><a href="/">HOME</a></li>');
+        });
+        $('footer').load('footer.html');
+    </script>
+</body>
